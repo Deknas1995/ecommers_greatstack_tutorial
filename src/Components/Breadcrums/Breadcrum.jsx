@@ -1,7 +1,6 @@
 import React from "react";
 import "./Breadcrum.css";
 import arrow_icon from "../Assets/breadcrum_arrow.png";
-import Product from "../../Pages/Product";
 
 export default function Breadcrum(props) {
   const { product } = props;

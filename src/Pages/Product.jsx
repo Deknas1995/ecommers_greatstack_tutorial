@@ -6,8 +6,13 @@ import ProductDisplay from "../Components/ProductDisplay/ProductDisplay";
 
 export default function Product() {
   const { all_product } = useContext(ShopContext);
-  const { productId } = useParams();
-  const product = all_product.find((e) => e.id === Number(productId));
+  const { productID } = useParams();
+
+  console.log("Params productId:", productID);
+  console.log("All products:", all_product);
+
+  const product = all_product.find((e) => e.id === Number(productID));
+
   return (
     <div>
       <Breadcrum product={product} />
