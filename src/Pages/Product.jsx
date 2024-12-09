@@ -10,9 +10,6 @@ export default function Product() {
   const { all_product } = useContext(ShopContext);
   const { productID } = useParams();
 
-  console.log("Params productId:", productID);
-  console.log("All products:", all_product);
-
   const product = all_product.find((e) => e.id === Number(productID));
 
   return (
