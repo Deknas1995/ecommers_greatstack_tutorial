@@ -1,7 +1,7 @@
 import React from "react";
 import "./RelatedProducts.css";
-import data_product from "../../Components/Assets/data";
-import Item from "../../Components/Item/Item";
+import data_product from "../Assets/data";
+import Item from "../Item/Item";
 
 export default function RelatedProduct() {
   return (
