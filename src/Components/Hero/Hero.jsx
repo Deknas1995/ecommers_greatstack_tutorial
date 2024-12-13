@@ -7,7 +7,6 @@ import hero_image from "../Assets/hero_image.png";
 export default function Hero(){
   return (
     <div className="hero">
-      Hero
       <div className="hero-left">
         <h2>new arrivals only</h2>
         <div>
@@ -18,11 +17,13 @@ export default function Hero(){
         </div>
         <p>collections</p>
         <p>for everyone</p>
-      </div>
-      <div className="hero-latest-btn">
+
+        <div className="hero-latest-btn">
         <div>Latest Collection</div>
         <img src={arrow_icon} alt="missing arrow icon" />
       </div>
+      </div>
+
       <div className="hero-right">
         <img src={hero_image} alt="missing hero image" />
       </div>
